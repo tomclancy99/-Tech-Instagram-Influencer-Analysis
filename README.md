@@ -1,4 +1,4 @@
-- 📊 Tech Instagram Influencer Analysis
+## 📊 Tech Instagram Influencer Analysis
 
 This project focuses on analyzing Instagram performance data using SQL to extract actionable business insights. The analysis covers follower growth, content effectiveness, and audience engagement across different time dimensions.
 
