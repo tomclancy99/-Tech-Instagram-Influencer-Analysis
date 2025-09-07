@@ -42,6 +42,6 @@ This analysis provides marketing and strategy teams with:
 
 ### 🔗 Resources
 
-SQL scripts and queries: Sql.script
+SQL scripts and queries : instagram influencer analysis.sql
 
 ✨ This project sharpened my ability to transform raw social media data into business insights, while practicing professional SQL techniques aligned with real-world analytics use cases.
