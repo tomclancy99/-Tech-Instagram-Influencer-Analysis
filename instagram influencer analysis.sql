@@ -118,10 +118,13 @@ where d_rank in (1,2,3);
 -- 10. Create a stored procedure that takes the 'Week_no' as input and generates a report displaying the total shares for each 'Post_type'. The output of the procedure should consist of two columns:
 -- • post_type
 -- • total_shares
-select
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_procedure`(in week_no int)
+BEGIN
+	select
 	fc.post_type,
     sum(fc.shares) as total_shares
 from fact_content fc join dim_dates dd on fc.date =  dd.date
-where dd.week_no = "W1"
+where dd.week_no = concat("W",week_no)
 group by fc.post_type;
+END
 
