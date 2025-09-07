@@ -2,21 +2,18 @@
 
 This project focuses on analyzing Instagram performance data using SQL to extract actionable business insights. The analysis covers follower growth, content effectiveness, and audience engagement across different time dimensions.
 
-##  The project was developed as part of the Codebasics Virtual Internship, leveraging three key tables:
+###  The project was developed as part of the Codebasics Virtual Internship, leveraging three key tables:
 - dim_dates → calendar-related attributes (date, month, quarter, weekday, etc.)
 - fact_account → account-level metrics (profile visits, new followers, etc.)
 - fact_content → post-level metrics (post type, impressions, reach, likes, comments, saves, shares, etc.)
 
-🔍 Business Objectives & SQL Solutions
+### 🔍 Business Objectives & SQL Solutions
 
 The project addresses practical business questions by writing SQL queries with aggregations, window functions, CTEs, and stored procedures.
-
-Post Type Diversity
-
+- Post Type Diversity
 Counted the number of unique post types in the content dataset.
 
-Content Reach Extremes
-
+- Content Reach Extremes
 Identified the maximum and minimum impressions recorded for each post type.
 
 Weekend Campaign Monitoring
